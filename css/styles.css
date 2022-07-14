@@ -189,6 +189,8 @@ img {
   background-color: #2f303a;
   text-align: center;
   padding: 200px 0;
+  max-width: 1600px;
+  min-height: 600px;
   
 }
 
@@ -316,7 +318,14 @@ width: 270px;
 .team-list {
   display: flex;
   gap: 30px;
+  
 }
+
+
+.teaam-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .description {
   padding-top: 30px;
   padding-bottom: 30px;
