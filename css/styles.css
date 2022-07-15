@@ -146,6 +146,17 @@ img {
 .current {
   color: var(--accent-color);
 }
+
+.current::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #2196F3;
+  border-radius: 2px;
+  
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
@@ -191,13 +202,25 @@ img {
   padding: 200px 0;
   max-width: 1600px;
   min-height: 600px;
+  /*background-image: linear-gradient(
+    0deg, 
+    rgba(0, 0, 0, 0.2), 
+    rgba(0, 0, 0, 0.2)), 
+    linear-gradient(0deg,
+     rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)), 
+      rgba(47, 48, 58, 0.31),
+      url(../images/hero/hat.jpg);*/
+  
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.2),
     rgba(0, 0, 0, 0.2),
-    rgba(47, 48, 58, 0.4)
+    rgba(47, 48, 58, 0.31)
   ),
     url(../images/hero/hat.jpg);
+
+
   /*background-repeat: no-repeat;
   background-position: center;
   background-size: cover;*/
@@ -275,11 +298,31 @@ width: 270px;
 }
 
 .features-item::before {
+  content: '';
   display: block;
-  cintent: '';
   height: 120px;
-  
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: #F5F4FA;
+  border-radius: 4px;
 }
+
+.item-antenna::before {
+  background-image: url();
+}
+.item-watch::before {
+  background-image: url();
+}
+
+.item-schedule::before {
+  background-image: url();
+}
+
+.item-astronaut::before {
+  background-image: url();
+}
+
 
 .features-discription {
   font-size: 14px;
