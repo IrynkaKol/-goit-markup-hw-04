@@ -596,3 +596,41 @@ width: 270px;
   padding: 6px 22px;
   
 }
+
+/*Socials*/
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  
+
+  
+  }
+
+  .socials-link {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 50%;
+    outline: 2px solid red;
+  }
+
+  .team-position {
+    margin-bottom: 16px;
+  }
+
+  .sociai-icon {
+    fill: rgba(175, 177, 184, 1);
+  }
+
+  .socials-link:hover {
+    background-color:  #2196F3;
+  }
+
+  .socials-link:hover .sociai-icon {
+    fill: #fff;
+  }
