@@ -1,6 +1,6 @@
 :root {
   --primary-text-color: #757575;
-  --title-text-color: #212121;
+  --title-text-color: #212121;her
   --text-main-color: #000000;
   --text-color: #ffffff;
   --accent-color: #2196f3;
@@ -326,21 +326,23 @@ width: 270px;
   background-position: center;
   background: #F5F4FA;
   border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .item-antenna::before {
-  background-image: url();
+  background-image: url(../images/icons/antena.svg);
 }
 .item-watch::before {
-  background-image: url();
+  background-image: url(../images/icons/clock.svg);
 }
 
 .item-schedule::before {
-  background-image: url();
+  background-image: url(../images/icons/diagram.svg);
 }
 
 .item-astronaut::before {
-  background-image: url();
+  background-image: url(../images/icons/astronaut.svg);
 }
 
 
@@ -543,6 +545,7 @@ width: 270px;
   color: var(--text-color);
   background-color: var(--accent-color);
   border-radius: 4px;
+  
 }
 
 
