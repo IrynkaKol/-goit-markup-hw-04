@@ -317,6 +317,7 @@ img {
 width: 270px;
 }
 
+/*
 .features-item::before {
   content: '';
   display: block;
@@ -328,9 +329,9 @@ width: 270px;
   border-radius: 4px;
   background-repeat: no-repeat;
   background-position: center;
-}
+}*/
 
-.item-antenna::before {
+/*.item-antenna::before {
   background-image: url(../images/icons/antena.svg);
 }
 .item-watch::before {
@@ -343,7 +344,7 @@ width: 270px;
 
 .item-astronaut::before {
   background-image: url(../images/icons/astronaut.svg);
-}
+}*/
 
 
 .features-discription {
@@ -595,6 +596,23 @@ width: 270px;
 .portfolio-btn {
   padding: 6px 22px;
   
+}
+
+/*Featwers icons*/
+.icon-link {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #F5F4FA;
+border-radius: 4px;
+width: 270px;
+height: 120px;
+margin-bottom: 30px;
+
+}
+
+.features-item {
+justify-content: center;
 }
 
 /*Socials*/
