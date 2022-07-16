@@ -598,6 +598,16 @@ width: 270px;
   
 }
 
+/* Heafer icon*/
+.icon-items {
+
+}
+.mail-link {
+
+  align-items: center;
+
+}
+
 /*Featwers icons*/
 .icon-link {
 display: flex;
