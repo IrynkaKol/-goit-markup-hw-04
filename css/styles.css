@@ -130,6 +130,10 @@ img {
   color: var(--accent-color);
 }
 
+.icon-link {
+
+}
+
  
 /*Site nav*/
 
@@ -171,6 +175,7 @@ img {
 }
 
 .contacts-link {
+  display: flex;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -187,12 +192,21 @@ img {
 .header-item:last-child {
   margin-right: 0;
 }
+
+
+.mail-icon,
+.pfone-icon {
+  margin-right: 10px;
+}
+
+
+
 .header-mail {
   margin-right: 50px;
-  width: 135px;
+  /*width: 135px;*/
 }
 .header-phone {
-  width: 122px;
+  /*width: 122px;*/
 }
 
 
@@ -206,31 +220,17 @@ img {
   min-height: 600px;
 
   
- background-image: linear-gradient(
-    0deg, 
-    rgba(0, 0, 0, 0.2), 
-    rgba(0, 0, 0, 0.2),
-    rgba(47, 48, 58, 0.31))
-,
+ background-image: 
+ linear-gradient(
+   to right,
+   rgba(47, 48, 58, 0.4),
+   rgba(47, 48, 58, 0.4)
+ ),      
+    url(../images/hero/hat.jpg);
     
     
-    url(../images/hero/hat.jpg)
-    ;
-    
-    
-
-    /* Значение из фигмы linear-gradient(
-      0deg, 
-      rgba(0, 0, 0, 0.2), 
-      rgba(0, 0, 0, 0.2)), 
-      linear-gradient(0deg,
-       rgba(0, 0, 0, 0.2), 
-       rgba(0, 0, 0, 0.2)), 
-       rgba(47, 48, 58, 0.31),*/
-    
-
-
-      
+  
+          
   /* (пример Репета) background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.2),
@@ -457,7 +457,7 @@ width: 270px;
 }
 
 .footer .contacts-adress {
-    color: var(--text-color);
+  color: var(--text-color);
   background-color: #2f303a;
   font-size: 14px;
   line-height: 1.71;
@@ -599,14 +599,19 @@ width: 270px;
 }
 
 /* Heafer icon*/
-.icon-items {
-
+.contacts-link {
+  display: flex;
 }
-.mail-link {
-
-  align-items: center;
-
+.mail-icon {
+fill: #757575;
 }
+
+.mail-icon:hover,
+.mail-icon:focus {
+  color: #2196F3;
+}
+
+
 
 /*Featwers icons*/
 .icon-link {
@@ -689,3 +694,25 @@ justify-content: center;
 .clients-link:focus {
   color: rgba(33, 150, 243, 1);
 }
+
+/**/
+.mail-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 161px;
+  height: 16px;
+  color: #757575;
+}
+
+.mail-icon P{
+  fill: currentColor;
+}
+
+.header-mail:hover,
+.header-mail:focus
+{
+  color: #2196F3;
+}
+
+
