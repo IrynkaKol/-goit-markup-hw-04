@@ -598,17 +598,15 @@ width: 270px;
   
 }
 
-/* Heafer icon*/
+/* Header icon*/
 .contacts-link {
   display: flex;
 }
 .mail-icon {
 fill: #757575;
 }
-
-.mail-icon:hover,
-.mail-icon:focus {
-  color: #2196F3;
+.mail-icon:hover {
+  fill: #2196F3;
 }
 
 
@@ -693,26 +691,6 @@ justify-content: center;
   .clients-link:hover,
 .clients-link:focus {
   color: rgba(33, 150, 243, 1);
-}
-
-/**/
-.mail-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 161px;
-  height: 16px;
-  color: #757575;
-}
-
-.mail-icon P{
-  fill: currentColor;
-}
-
-.header-mail:hover,
-.header-mail:focus
-{
-  color: #2196F3;
 }
 
 
