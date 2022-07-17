@@ -316,36 +316,6 @@ img {
 width: 270px;
 }
 
-/*
-.features-item::before {
-  content: '';
-  display: block;
-  height: 120px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background: #F5F4FA;
-  border-radius: 4px;
-  background-repeat: no-repeat;
-  background-position: center;
-}*/
-
-/*.item-antenna::before {
-  background-image: url(../images/icons/antena.svg);
-}
-.item-watch::before {
-  background-image: url(../images/icons/clock.svg);
-}
-
-.item-schedule::before {
-  background-image: url(../images/icons/diagram.svg);
-}
-
-.item-astronaut::before {
-  background-image: url(../images/icons/astronaut.svg);
-}*/
-
-
 .features-discription {
   font-size: 14px;
   line-height: 1.71;
@@ -362,8 +332,6 @@ width: 270px;
   font-weight: 700;
   font-size: 36px;
   text-align: center;
-  
-
 }
 
 .about-list {
@@ -426,7 +394,10 @@ width: 270px;
 }
 
 .container-footer {
-  
+  display: flex;
+  gap: 70px;
+  padding: 0;
+  align-items: center;
 }
 .footer .footer-word {
   color: var(--accent-color);
@@ -481,7 +452,23 @@ width: 270px;
   margin-bottom: 9px;  
 }
 
+.footer-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
 
+
+}
+.socials link {
+  width: 206px;
+  height: 44px;
+  padding-top: 20px;
+}
 
 /*Portfolio*/
 
@@ -610,7 +597,7 @@ fill: currentColor;
 
 
 
-/*Featwers icons*/
+/*Features icons*/
 .icon-link {
 display: flex;
 align-items: center;
@@ -627,12 +614,13 @@ margin-bottom: 30px;
 justify-content: center;
 }
 
-/*Socials*/
+/*Socials team*/
 .socials {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
+  padding-top: 20px;
 }
 
   .socials-link {
@@ -692,4 +680,17 @@ justify-content: center;
   color: rgba(33, 150, 243, 1);
 }
 
+/*footer icons*/
+.footer-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
 
+.footer-icon {
+  fill: #fff;
+}
