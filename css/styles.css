@@ -130,9 +130,8 @@ img {
   color: var(--accent-color);
 }
 
-.icon-link {
 
-}
+
 
  
 /*Site nav*/
@@ -600,14 +599,14 @@ width: 270px;
 
 /* Header icon*/
 .contacts-link {
-  display: flex;
+  color: #757575;
+
 }
-.mail-icon {
-fill: #757575;
+.mail-icon,
+.pfone-icon {
+fill: currentColor;
 }
-.mail-icon:hover {
-  fill: #2196F3;
-}
+
 
 
 
