@@ -231,8 +231,8 @@ img {
   text-align: center;
   padding: 200px 0;
   max-width: 1600px;
-  padding-left: auto;
-  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   min-height: 600px;
 
  background-image: 
